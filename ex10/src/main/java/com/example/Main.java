@@ -1,6 +1,12 @@
 package com.example;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.Optional;
+import java.util.Comparator;
 
-public class FiltragemVendedores {
+
+public class Main {
     public static void main(String[] args) {
         List<Vendedor> vendedores = Arrays.asList(
             new Vendedor("Ana", 15000.0),

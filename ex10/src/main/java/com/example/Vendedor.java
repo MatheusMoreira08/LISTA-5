@@ -1,7 +1,4 @@
-package com;
-
-import java.util.*;
-import java.util.stream.Collectors;
+package com.example;
 
 class Vendedor {
     private String nome;
